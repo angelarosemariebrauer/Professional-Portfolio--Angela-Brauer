@@ -48,11 +48,7 @@ table {
 }
 /* CSS RESET CODE IS ABOVE */
 
-/* MY HTML STYLE */
-
-html {
-    scroll-behavior: smooth;
-}
+/*ANGELA BRAUER'S CSS STYLING BEGINS HERE */
 
 /* MY BODY STYLE */
 body {
@@ -109,6 +105,7 @@ h1 {
     color: #000000;
     font-size: 2.25rem;
     font-weight: bold;
+    text-align: center;
     margin: 2rem;
     padding: 1rem;
     border: 3px solid #006D75;
@@ -651,21 +648,23 @@ input[type="reset"]:hover {
         flex-direction: row;
         justify-content: center;
         gap: 1.5rem;
+    }
+
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+
+    h3 {
+        font-size: 1.4rem;   
+    }
 }
 
-
-h1 {
-    font-size: 2.5rem;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-
-h3 {
-    font-size: 1.4rem;   
-}
 
 #Education, 
 #Skills,
@@ -696,11 +695,4 @@ padding: 3rem 2rem;
     }
 }
 
-/*ACCESS AND USABILITY FEATURES*/
-
-@media (prefers-reduced-motion: reduce) {
-
-    html {
-        scroll-behavior: auto;
-    }   
-}
+/*MORE ACCESS AND USABILITY FEATURES??*
