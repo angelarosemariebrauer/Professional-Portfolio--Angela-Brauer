@@ -176,8 +176,8 @@ nav li {
 
 nav a {
     display: inline-block;
-    background-color: transparent;
-    color: #FFFFFF;
+    background-color: #08fdc4;
+    color: #4e99fc;
     font-weight: bold;
     text-decoration: none;
     padding: 0.5rem 0.75rem;
@@ -185,13 +185,13 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #73E6EB;
-    color: #FFFFFF;
+    background-color: #1dd9e3;
+    color: #08e72a;
     text-decoration: underline;
 }
 
 nav a:focus {
-    background-color: #73E6EB;
+    background-color: #03febf;
     color: #000000;
     outline: 3px solid #000000;
     outline-offset: 3px;
