@@ -203,7 +203,7 @@ nav a:focus {
 main {
     width: 100%;
     max-width: 1200px;
-    padding: 2rem auto;
+    padding: 2rem;
 }
 
 
@@ -300,7 +300,7 @@ main > section {
     padding: 2rem 1rem;
     border: 4px solid #00BCD4;
     border-radius: 10px;
-    overflow: break-word;
+    overflow-wrap: break-word;
 }
 
 #Education h2 {
@@ -314,7 +314,7 @@ main > section {
 }
 
 #Education img {
-    margin: 0.5 1rem 1rem 0;
+    margin: 0.5rem 1rem 1rem 0;
     vertical-align: middle;
     max-width: 100%;
     height: auto;
@@ -514,10 +514,11 @@ address {
     line-height: 1.8;
 }
 
-#Contact a {
+#Contact a  {
     display: inline-block;
     color: #00BCD4;
     padding: 0.25rem;
+}
 
 #Contact a:hover {
     color: #006D75;
@@ -635,15 +636,15 @@ button:hover,
 input[type="submit"]:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover {
-    background-color: #006D75;
+    background-color: #1988f0;
     border-color: #006D75;
-    color:#0ee4af
-    outline: 3px solid #006D75;
+    color:#0ee4af;
+    outline: 3px solid #0aecfd;
     outline-offset: 3px;
 }
 
 
-/*TABLET AND DESKTOP STYLES */
+/*TABLET AND DESKTOP STYLES: EASE OF ACCESS */
 
 @media screen and (min-width: 768px) {
     nav ul {
@@ -673,7 +674,7 @@ section[id="Angela's-Photography-Portfolio"] {
 padding: 3rem 2rem;
 }
 
-/*LARGE DESKTOP STYLES */
+/*LARGE DESKTOP STYLES: EASE OF ACCESS */
 
 @media screen and (min-width: 1024px) {
     
@@ -697,7 +698,7 @@ padding: 3rem 2rem;
 
 /*ACCESS AND USABILITY FEATURES*/
 
-@media (prefers-reduced-mption: reduce) {
+@media (prefers-reduced-motion: reduce) {
 
     html {
         scroll-behavior: auto;
