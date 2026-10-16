@@ -110,7 +110,7 @@ header {
 h1 {
     background-color: #B0F1F2;
     color: #000000;
-    font-family: "Segoe Script," "Brush Script MT," cursive; 
+    font-family: "Segoe Script", "Brush Script MT", cursive; 
     font-size: 2.25rem;
     font-weight: bold;
     text-align: center;
@@ -240,7 +240,7 @@ main {
 h2 {
     background-color: #73E6EB;
     color: #000000;
-    font-family: "Segoe Script," "Brush Script MT," cursive; 
+    font-family: "Segoe Script", "Brush Script MT", cursive; 
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 1.3;
