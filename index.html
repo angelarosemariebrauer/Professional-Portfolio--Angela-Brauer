@@ -232,27 +232,57 @@
                     <a href="mailto:arbrauer@asu.edu" target="_blank">Email Angela Brauer Here!</a>
                 </address>
   </section>
-        <p> If you would like more information, please fill out the form below. (<span class="required">*</span>).
-</p>
+       <!--Expandable Contact Form-->
 
-<form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="POST">
-    <label for="fname">Full Name <span class="required">*</span></label>
-    <input type="text" id="fname" name="fname" required>
+        details class="contact-form-details">
+        <summary>Contact Form - Click to Open</summary>
+        <div class="form-content">
+            <h3>Send a Message</h3>
+            <p>Please complete the form below to get in touch with Angela Brauer. Feilds marked with <span class= "required">*</span> are required.</p>
+        
+        <form action="https://wp.zybooks.com/form-viewer.php"
+            target="_blank"
+            method="POST">
 
-    <label for="email">Email <span class="required">*</span></label>
-    <input type="email" id="email" name="email" required>
+        <label for="fname">Full Name: <span class="required">*</span></label>
+        <input type="text" 
+               id="fname" 
+               name="fname" 
+               required>
 
-    <label for="subject">Subject <span class="required">*</span></label>
-    <input type="text" id="subject" name="subject" required>
+        <label for="email">Email: <span class="required">*</span></label>
+        <input type="email" 
+               id="email" 
+               name="email" 
+               required>   
 
-    <label for="phone">Phone <span class="required">*</span></label>
-    <input type="tel" id="phone" name="phone" required>
 
-    <label for="message">Message <span class="required">*</span></label>
-    <textarea id="message" name="message" required></textarea>
-    <button type="submit">Submit</button>
- <!-- form inputs and labels, etc. go here -->
-</form>
+        <label for="phone">Phone Number: <span class="required">*</span></label>
+        <input type="tel" 
+               id="phone" 
+               name="phone" 
+               required>
+
+        
+        <label for="subject">Subject: <span class="required">*</span></label>
+        <input type="text" 
+               id="subject" 
+               name="subject" 
+               required>    
+    
+
+        label for="message">Message: <span class="required">*</span></label>
+        <textarea id="message" 
+                  name="message" 
+                  rows="6" 
+                  required></textarea>
+
+        button type="submit">Submit</button>
+        </form>
+    </div>
+</details>
+
+        
                 <p>Find me on <a href="#" aria-label="Find me on LinkedIn" target="_blank">LinkedIn</a></p> 
                 <a href="#" aria-label="Find Me on LinkedIn">
                      <svg 
