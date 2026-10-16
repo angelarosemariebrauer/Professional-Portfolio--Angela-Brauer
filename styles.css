@@ -626,7 +626,12 @@ select:focus {
 }
 
 textarea {
+    display: block;
+    width: 100%;    
+    max-width: 500px;
     min-height: 150px;
+    margin: 0 auto 1rem auto;
+    resize: vertical;
 }
 
 
@@ -659,6 +664,12 @@ input[type="reset"]:hover {
     outline-offset: 3px;
 }
 
+
+form button[type="submit"] {
+    display: block;
+    width: fit content;
+    margin: 1rem auto; 
+}
 
 /*TABLET AND DESKTOP STYLES: EASE OF ACCESS */
 
