@@ -686,7 +686,11 @@ form button[type="submit"] {
     margin: 1rem auto; 
 }
 
+/*BUTTON: BACK TO TOP STYLES */
 
+.back-to-top {
+    margin-top: 20px;
+}
 
 /*TABLET AND DESKTOP STYLES: EASE OF ACCESS */
 
