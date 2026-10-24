@@ -141,7 +141,7 @@ h1 span {
 
 /*Professional Bio*/
 
-header p .professional-bio {
+header p.professional-bio {
     background-color: #B0F1F2;
     color: #000000;
     padding: 20px;
