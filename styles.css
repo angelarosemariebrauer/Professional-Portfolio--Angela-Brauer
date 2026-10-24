@@ -139,6 +139,20 @@ h1 span {
     display: inline;
 }
 
+/*Professional Bio*/
+
+.professional-bio {
+    background-color: #B0F1F2;
+    color: #000000;
+    padding: 20px;
+    border: 3px solid #006D75;
+    border-radius: 12px;
+    line-height: 1.7;
+    max-width: 1000px;
+    margin: 0 auto 1rem auto;
+
+}
+
 /*H1 H2 FONT STYLES */
 
 h1, h2 {
@@ -686,11 +700,9 @@ form button[type="submit"] {
     margin: 1rem auto; 
 }
 
-/*BUTTON: BACK TO TOP STYLES */
+/*BUTTON: BACK TO TOP STYLES*/
 
-.back-to-top {
-    margin-top: 20px;
-}
+/*REDO THIS !!!!*/
 
 /*TABLET AND DESKTOP STYLES: EASE OF ACCESS */
 
