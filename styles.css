@@ -141,7 +141,7 @@ h1 span {
 
 /*Professional Bio*/
 
-.professional-bio {
+header p .professional-bio {
     background-color: #B0F1F2;
     color: #000000;
     padding: 20px;
@@ -157,15 +157,6 @@ h1 span {
 
 h1, h2 {
     border: 6px double #02b59d;
-}
-
-/*HEADER PARAGRAPH STYLES */
-
-header p {
-    color: #000000;
-    max-width: 1000px;
-    margin: 0 auto 1rem auto;
-}
 
 
 /*HEADER LOGO STYLES */
