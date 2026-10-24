@@ -628,6 +628,7 @@ textarea,
 select {
     display: block;
     width: 100%;
+				box-sizing: border-box;
     padding: 0.75rem;
     margin-bottom: 1rem;
     background-color: #FFFFFF;
@@ -667,8 +668,9 @@ textarea {
 /*BUTTON STYLES */
 
 button, 
-button[type="submit"]
-input[type="button"] 
+button[type="submit"],
+input[type="submit"],
+input[type="button"],
 input[type="reset"] {
     display: inline-block;
     width: auto;
@@ -696,8 +698,14 @@ input[type="reset"]:hover {
 
 form button[type="submit"] {
     display: block;
-    width: fit content;
+    width: fit-content;
     margin: 1rem auto; 
+}
+
+/*INVALID FORM STYLES*/
+
+input:invalid {
+    border: 2px solid red;
 }
 
 /*BUTTON: BACK TO TOP STYLES*/
