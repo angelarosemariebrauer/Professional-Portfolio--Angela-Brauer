@@ -141,16 +141,11 @@ h1 span {
 
 /*Professional Bio*/
 
-header p.professional-bio {
-    background-color: #B0F1F2;
+header p {
     color: #000000;
-    padding: 20px;
-    border: 3px solid #006D75;
-    border-radius: 12px;
-    line-height: 1.7;
+    background-color: #B0F1F2;
     max-width: 1000px;
     margin: 0 auto 1rem auto;
-
 }
 
 /*H1 H2 FONT STYLES */
