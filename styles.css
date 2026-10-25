@@ -230,6 +230,13 @@ nav a:focus {
     outline-offset: 3px;
 }
 
+/*CUSTOM CURSOR STYLES*/
+
+a, button, summary,
+input[type="submit"] {
+    cursor: pointer;
+}       
+
 /* MAIN STYLES */
 
 main {
@@ -613,12 +620,26 @@ label {
     font-weight: bold;
 }
 
+/*CONTACT FORM LABEL PSEUDO ELEMENT*/
+
+.contact-form-details label::before {
+    content: "✦";
+    color: #008B8B;
+    font-weight: bold;
+}   
+
+.contact-form-details label:has(+ input:focus)::before {
+    box-shadow: 0 0 6px #51F7E2 
+}
+
+
+
 input,
 textarea,
 select {
     display: block;
     width: 100%;
-				box-sizing: border-box;
+	box-sizing: border-box;
     padding: 0.75rem;
     margin-bottom: 1rem;
     background-color: #FFFFFF;
@@ -678,9 +699,9 @@ button:hover,
 input[type="submit"]:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover {
-    background-color: #1988f0;
+    background-color: #006D75;
     border-color: #006D75;
-    color:#0ee4af;
+    color:#FFFFFF;
     outline: 3px solid #0aecfd;
     outline-offset: 3px;
 }
@@ -694,7 +715,8 @@ form button[type="submit"] {
 
 /*INVALID FORM STYLES*/
 
-input:invalid {
+.contact-form-details input:user-invalid,
+.contact-form-details textarea:user-invalid {
     border: 2px solid red;
 }
 
