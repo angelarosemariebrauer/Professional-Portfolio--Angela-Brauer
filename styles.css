@@ -144,6 +144,10 @@ h1 span {
 header p {
     color: #000000;
     background-color: #B0F1F2;
+    padding: 20px;
+    border: 6px double #006D75;
+    border-radius: 12px;
+    line-height: 1.7;
     max-width: 1000px;
     margin: 0 auto 1rem auto;
 }
