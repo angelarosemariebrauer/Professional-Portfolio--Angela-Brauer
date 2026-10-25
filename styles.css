@@ -503,6 +503,7 @@ section[id="Angela's-Photography-Portfolio"] a[href="#"] {
     padding: 0.5rem 1rem;
     border: 2px solid #09d483;
     border-radius: 5px;
+    margin-top: 20px;
 }
 
 section[id="Angela's-Photography-Portfolio"] a[href="#"]:hover {
@@ -613,6 +614,14 @@ form {
     border-radius: 10px;
 }
 
+/*CONTACT FORM ACCENT COLOR*/
+
+.contact-form-details {
+    accent-color: #51F7E2
+}
+
+
+/*FORM LABEL STYLES*/
 label {
     display: block;
     color: #000000;
@@ -632,7 +641,7 @@ label {
     box-shadow: 0 0 6px #51F7E2 
 }
 
-
+/*INPUT, TEXTAREA, AND SELECT STYLES*/
 
 input,
 textarea,
@@ -649,6 +658,7 @@ select {
     font: inherit;
 }   
 
+/*FORM FOCUS AND HOVER STYLES*/
 
 input:hover,
 textarea:hover,
@@ -665,6 +675,8 @@ select:focus {
     outline: 3px solid #00BCD4;
     outline-offset: 2px;
 }
+
+/*TEXTAREA STYLES*/
 
 textarea {
     display: block;
@@ -713,6 +725,12 @@ form button[type="submit"] {
     margin: 1rem auto; 
 }
 
+.contact-form-details input[type="checkbox"]:checked,
+.contact-form-details input[type="radio"]:checked {
+    background-color: #00BCD4;
+    border-color: #006D75;
+}
+
 /*INVALID FORM STYLES*/
 
 .contact-form-details input:user-invalid,
@@ -720,9 +738,6 @@ form button[type="submit"] {
     border: 2px solid red;
 }
 
-/*BUTTON: BACK TO TOP STYLES*/
-
-/*REDO THIS !!!!*/
 
 /*TABLET AND DESKTOP STYLES: EASE OF ACCESS */
 
@@ -781,4 +796,4 @@ padding: 3rem 2rem;
 /*MORE RULES*/
 
 
-/*MORE ACCESS AND USABILITY FEATURES??*
+/*MORE ACCESS AND USABILITY FEATURES*/
