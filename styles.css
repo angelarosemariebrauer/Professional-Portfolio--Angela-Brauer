@@ -50,6 +50,13 @@ table {
 
 /*ANGELA BRAUER'S CSS STYLING BEGINS HERE */
 
+/*GLOBAL BOX SIZING*/          /*TAKE OUT IF NEEDED*/
+*,
+*::before,
+*::after    {
+    box-sizing: border-box;
+}
+
 /* MY BODY STYLE */
 body {
     background-color: #79d9ec;
@@ -263,6 +270,9 @@ h2 {
     margin: 0 0 1.5rem 0;
     border: 3px solid #006D75;
     border-radius: 8px;
+    position: sticky; /*I just added these three 10/30*/
+    top: 0;
+    z-index: 10;
 }
 
 
@@ -791,9 +801,10 @@ form button[type="submit"] {
 
 /*TABLET AND DESKTOP STYLES: EASE OF ACCESS */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
     nav ul {
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
         gap: 1.5rem;
     }
@@ -814,16 +825,16 @@ form button[type="submit"] {
 }
 
 
-#Education, 
-#Skills,
-#Work-experience,
-section[id="Angela's-Photography-Portfolio"] {
-padding: 3rem 2rem;
+    #Education, 
+    #Skills,
+    #Work-experience,
+    section[id="Angela's-Photography-Portfolio"] {
+    padding: 3rem 2rem;
 }
 
 /*LARGE DESKTOP STYLES: EASE OF ACCESS */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px){
     
     main {
         width: 85%;
