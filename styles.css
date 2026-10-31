@@ -854,7 +854,18 @@ form button[type="submit"] {
     }
 }
 
-/*MORE RULES*/
+/*BACK TO TOP MOBILE STYLES*/
+
+@media screen and (max-width: 767px){
+    .back-to-top {
+        top: auto;
+        bottom: 15px;
+        right: 10px;
+    }
+
+}
+
+/*MORE RULES?*/
 
 
-/*MORE ACCESS AND USABILITY FEATURES*/
+/*MORE ACCESS AND USABILITY FEATURES?*/
