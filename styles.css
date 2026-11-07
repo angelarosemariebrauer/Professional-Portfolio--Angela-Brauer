@@ -464,11 +464,12 @@ section[id="Angela's-Photography-Portfolio"] img {
     display: inline-block;
     width: 300px;
     max-width: 100%;
-    height: auto;
-    object-fit: contain;
-    vertical-align: middle;
-    margin: 0.5rem;
-    border: 2px solid #FFFFFF;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+    padding: 0;
+    border: none;
     border-radius: 8px;
 }
 
