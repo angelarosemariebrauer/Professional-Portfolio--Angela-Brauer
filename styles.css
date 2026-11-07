@@ -460,6 +460,14 @@ section[id="Angela's-Photography-Portfolio"] h3 {
     margin-top: 2.5rem;
 }
 
+/*PHOTOGRAPHY PORTFOLIO PHOTO GRID STYLES */
+.photo-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin: 1rem 0 1.5rem;
+}
 section[id="Angela's-Photography-Portfolio"] img {
     display: inline-block;
     width: 300px;
@@ -823,6 +831,11 @@ form button[type="submit"] {
     h3 {
         font-size: 1.4rem;   
     }
+    /*PHOTO GRID*/
+
+    .photo-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
 
@@ -846,6 +859,12 @@ form button[type="submit"] {
 
     nav a {
         padding: 0.75rem 1rem;
+    }
+
+    /*PHOTO GRID*/
+
+    .photo-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
 /* MAYBE RE ADD?
