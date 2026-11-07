@@ -847,14 +847,13 @@ form button[type="submit"] {
     nav a {
         padding: 0.75rem 1rem;
     }
-
+}
+/* MAYBE RE ADD?
     section[id="Angela's-Photography-Portfolio"] img {
         max-width: 100%;
         width: 300px;
         height: 400px;
-    }
-}
-
+    }*/
 /*BACK TO TOP MOBILE STYLES*/
 
 @media screen and (max-width: 767px){
