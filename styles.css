@@ -468,11 +468,12 @@ section[id="Angela's-Photography-Portfolio"] h3 {
     width: 100%;
     margin: 1rem 0 1.5rem;
 }
-section[id="Angela's-Photography-Portfolio"] img {
-    display: inline-block;
-    width: 300px;
+/*section[id="Angela's-Photography-Portfolio"] img {--can readd*/
+.photo-grid img {
+    display: block;
+    width: 100%;
     max-width: 100%;
-    height: auto;
+    height: 350px;
     object-fit: contain;
     object-position: center;
     margin: 0;
