@@ -881,7 +881,19 @@ form button[type="submit"] {
         bottom: 15px;
         right: 10px;
     }
-
+    /*MOBILE PHOTO GRID*/
+    .photo-grid {
+        gap: 10px;
+    }
+    .photo-grid img {
+        height: auto;
+        max-height: 250px;
+        object-fit: contain;
+    }
+    /*MOBILE PHOTO GRID PADDING*/
+    section[id="Angela's-Photography-Portfolio"] {
+        padding: 1.5rem 1rem;
+    }
 }
 
 /*MORE RULES?*/
