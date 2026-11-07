@@ -837,14 +837,13 @@ form button[type="submit"] {
     .photo-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
-}
-
 
     #Education, 
     #Skills,
     #Work-experience,
     section[id="Angela's-Photography-Portfolio"] {
     padding: 3rem 2rem;
+}
 }
 
 /*LARGE DESKTOP STYLES: EASE OF ACCESS */
