@@ -240,12 +240,17 @@ nav a {
     padding: 0.5rem 0.75rem;
     border: 2px solid #00ff8c;
     border-radius: 6px;
+    transition: background-color 0.3s ease, 
+                color 0.3s ease,
+                transform 0.3s ease;
 }
 
 nav a:hover {
     background-color: #1dd9e3;
     color: #08e72a;
     text-decoration: underline;
+    transform: translateY(-3px);
+    
 }
 
 nav a:focus {
@@ -557,12 +562,17 @@ section[id="Angela's-Photography-Portfolio"] p a:focus {
         border: 2px solid #006D75;
         border-radius: 10px;
         box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+        transition: background-color 0.3s ease,
+                    color 0.3s ease,
+                    transform 0.3s ease;
+        
 
     }
 
     .back-to-top:hover {
         background-color: #0eff9e;
         color: #000000;
+        transform: translateY(-4px);
     }
 
     .back-to-top:focus-visible {
