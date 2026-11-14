@@ -234,7 +234,7 @@ nav li {
 nav a {
     display: inline-block;
     background-color: #08fdc4;
-    color: #4e99fc;
+    color: #377bd3;
     font-weight: bold;
     text-decoration: none;
     padding: 0.5rem 0.75rem;
@@ -247,7 +247,7 @@ nav a {
 
 nav a:hover {
     background-color: #1dd9e3;
-    color: #08e72a;
+    color: #000000;
     text-decoration: underline;
     transform: translateY(-3px);
     
