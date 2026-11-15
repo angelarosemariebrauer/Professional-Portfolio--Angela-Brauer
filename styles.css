@@ -203,7 +203,15 @@ header + img {
     align-self: center;
     border: 4px solid #00BCD4;
     border-radius: 50%;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    
+    /*DECORATIVE FRAME: HEADSHOT*/
+    outline: 2px solid #000000;
+    outline-offset: 3px;
+
+    box-shadow:
+        0 0 0 2px #000000,
+        0 0 0 4px #EAFBFC,
+        0 6px 12px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -243,6 +251,8 @@ nav a {
     transition: background-color 0.3s ease, 
                 color 0.3s ease,
                 transform 0.3s ease;
+    /*NAV BOX SHADOW*/
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.20);
 }
 
 nav a:hover {
@@ -250,6 +260,7 @@ nav a:hover {
     color: #000000;
     text-decoration: underline;
     transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
     
 }
 
@@ -258,6 +269,7 @@ nav a:focus {
     color: #000000;
     outline: 3px solid #000000;
     outline-offset: 3px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 /*CUSTOM CURSOR STYLES*/
@@ -310,7 +322,7 @@ h3 {
     margin: 2rem 0 0.75rem 0;
     border: 5px solid #00BCD4;
     border-radius: 5px;
-    
+
     /*H3 Text Shadow*/
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     /*H3 Box Shadow*/
@@ -925,6 +937,27 @@ form button[type="submit"] {
     section[id="Angela's-Photography-Portfolio"] {
         padding: 1.5rem 1rem;
     }
+}
+
+/*REDUCED MOTION ACCESSIBILITY*/
+@media (prefers-reduced-motion: reduce) {
+   
+    /*Disable Bird logo animation*/
+    header img {
+        animation: none;    
+    }
+    /*Disable Nav movement*/
+    nav a, 
+    .back-to-top {
+        transition: none;
+        transform: none;
+    }
+    /*PREVENT HOVER EFFECTS*/
+    nav a:hover,
+    .back-to-top:hover {
+        transform: none;
+    }
+
 }
 
 /*MORE RULES?*/
