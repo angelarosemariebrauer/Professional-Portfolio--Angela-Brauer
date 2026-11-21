@@ -106,8 +106,8 @@ body {
 
 .intro-animation {
     position: absolute;
-    top: auto;
-    left: auto;
+    top: 4px;
+    left: 50%;
     transform: translate(-50%);
 
     width: 140px;
