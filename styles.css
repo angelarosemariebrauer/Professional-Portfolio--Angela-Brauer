@@ -105,15 +105,18 @@ body {
 /*ONE TIME "A" ANIMATION */
 
 .intro-animation {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+
     width: 220px;
     max-width: 80%;
     height: 120px;
+    margin: 1rem auto 1.5rem auto;
+
     pointer-events: none;
-    z-index: 20;
+    z-index: 1;
 
     animation-name: signature-disappear;
     animation-duration: 4s;
