@@ -106,9 +106,11 @@ body {
 
 .intro-animation {
     position: relative;
-    top: 4px;
-    left: 50%;
-    transform: translate(-50%);
+    display: block;
+    top: auto;
+    left: auto;
+    right: auto;
+    transform: none;
 
     width: 140px;
     max-width: 80%;
