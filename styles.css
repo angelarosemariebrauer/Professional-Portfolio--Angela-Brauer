@@ -110,10 +110,10 @@ body {
     left: auto;
     transform: none;
 
-    width: 160px;
+    width: 140px;
     max-width: 80%;
-    height: 75px;
-    margin: 20px auto 30px auto;
+    height: 55px;
+    margin: 0 auto 5px auto;
 
     pointer-events: none;
     z-index: 1;
