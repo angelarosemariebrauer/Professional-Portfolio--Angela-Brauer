@@ -102,6 +102,65 @@ body {
     background-color: #73E6EB;  
 }
 
+/*ONE TIME "A" ANIMATION */
+
+.intro-animation {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 220px;
+    max-width: 80%;
+    height: 120px;
+    pointer-events: none;
+    z-index: 20;
+
+    animation-name: signature-disappear;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.signature {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.draw-a {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+
+    animation-name: draw-signature;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/*HANDWRITING ANIMATION STYLES for "A"*/
+
+@keyframes draw-signature {
+    from{
+        stroke-dashoffset: 500;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+/*HANDWRITING DISAPPEARANCE ANIMATION STYLES for "A"*/
+
+@keyframes signature-disappear {
+    0%, 75%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
 /* HEADER STYLES */
 
 header {
@@ -956,6 +1015,15 @@ form button[type="submit"] {
     nav a:hover,
     .back-to-top:hover {
         transform: none;
+    }
+
+    .intro-animation,
+    .draw-a {
+        animation: none;
+    }
+
+    .intro-animation {
+        opacity: 0;
     }
 
 }
